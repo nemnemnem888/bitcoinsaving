@@ -12,6 +12,8 @@ Block Explorer: http://explorer.bitcoinsaving.cc/
 -> Notice: Mainnet not announcement yet. this guide is for TestNet only.
 --------------------------------------------------------------------------------
 
+
+
 Install for Linux Daemon
 ------------------------
 
