@@ -1,8 +1,11 @@
 BitcoinSaving Cryptocurrency MainNet
+------------------------------------
 
 BitcoinSaving is a Hybrid Cryptocurrency POS/POW that offers 40% Interest per year.
 
+
 -> Notice: Mainnet as not been announcement yet. this guide is for testing only.
+--------------------------------------------------------------------------------
 
 Install for Linux Daemon
 
