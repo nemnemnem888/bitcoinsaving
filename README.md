@@ -9,7 +9,7 @@ BitcoinSaving WebSite: http://bitcoinsaving.cc/
 Block Explorer: http://explorer.bitcoinsaving.cc/
 
 
--> Notice: Mainnet not announce yet. this guide is for TestNet only.
+-> Notice: MainNet not announce yet. this guide is for TestNet only.
 --------------------------------------------------------------------------------
 
 
