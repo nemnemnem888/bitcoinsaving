@@ -3,11 +3,16 @@ BitcoinSaving Cryptocurrency MainNet
 
 BitcoinSaving is a Hybrid Cryptocurrency POS/POW that offers 40% Interest per year.
 
+BitcoinSaving WebSite: http://bitcoinsaving.cc/
+
+Block Explorer: http://explorer.bitcoinsaving.cc/
+
 
 -> Notice: Mainnet as not been announcement yet. this guide is for testing only.
 --------------------------------------------------------------------------------
 
 Install for Linux Daemon
+------------------------
 
 *Note: before the first run please install dependencies listed below.
 
@@ -26,7 +31,9 @@ run it with: ./bitcoinsavingd or ./testnet
     After the first run you will get the following massage, please follow the instruction: Error: To use bitcoinsavingd, you must set a rpcpassword in the configuration file: /root/.bitcoinsaving/bitcoinsaving.conf It is recommended you use the following random password: rpcuser= rpcpassword= (you do not need to remember this password) For security reasons the username and password MUST NOT be the same.
 
 Run it again.
+
 Install for Windows 7/8/10
+--------------------------
 
 Download & unzip & run: https://github.com/bitcoinsaving/TestNet/blob/master/Wallet/testnet-windows.zip
 Install for Linux Xwindows
@@ -36,7 +43,9 @@ wget https://github.com/bitcoinsaving/TestNet/blob/master/Wallet/testnet-qt-linu
 tar -xzvf bitcoinsaving-qt-linux.tar.gz
 
 *Note: Run it inside Xwindows.
+
 Linux dependencies for Ubuntu 16.04
+-----------------------------------
 
 sudo apt-get update sudo apt-get upgrade
 
@@ -71,7 +80,9 @@ tar -xzvf testnet-sourcecode.tar.gz
 cd src
 
 make -f makefile.unix RELEASE=1
+
 How to Mine a block
+-------------------
 
 Open your wallet on windows.
 
@@ -90,7 +101,9 @@ minerd --url=http://127.0.0.1:35280 --userpass=rpc_user:
 Save the file inside the extracted cpuminer folder.
 
 Open your wallet and execute mine.bat to start mining.
+
 Testnet Explorer & API
+----------------------
 
 Testnet Explorer: http://testnet.bitcoinsaving.cc
 
