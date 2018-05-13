@@ -9,7 +9,7 @@ BitcoinSaving WebSite: http://bitcoinsaving.cc/
 Block Explorer: http://explorer.bitcoinsaving.cc/
 
 
--> Notice: Mainnet as not been announcement yet. this guide is for testing only.
+-> Notice: Mainnet not been announcement yet. this guide is for testing only.
 --------------------------------------------------------------------------------
 
 Install for Linux Daemon
