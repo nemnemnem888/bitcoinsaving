@@ -27,7 +27,7 @@ or
 
 wget https://github.com/bitcoinsaving/MainNet/raw/master/bitcoinsaving-daemon1604-linux.tar.gz //Ubuntu 16.04
 
-tar -xzvf bitcoinsaving-daemon1404-linux.tar.gz //or bitcoinsaving-daemon1604-linux.tar.gz
+tar -xzvf bitcoinsaving-daemon1404-linux.tar.gz        //or bitcoinsaving-daemon1604-linux.tar.gz
 
 chmod +x bitcoinsavingd
 
