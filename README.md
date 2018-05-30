@@ -14,6 +14,7 @@ Install for Linux Daemon
 ------------------------
 
 sudo apt-get update
+
 sudo apt-get upgrade
 
 sudo apt-get install build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev git libssl1.0.0-dbg -y
