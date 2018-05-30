@@ -13,7 +13,12 @@ Block Explorer: http://explorer.bitcoinsaving.io/
 Install for Linux Daemon
 ------------------------
 
-*Note: before the first run please install dependencies listed below.
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt-get install build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev git libssl1.0.0-dbg -y
+
+sudo apt-get install libdb-dev libdb++-dev libboost-all-dev libminiupnpc-dev libminiupnpc-dev libevent-dev libcrypto++-dev libgmp3-dev -y
 
 wget https://github.com/bitcoinsaving/TestNet/blob/master/Wallet/testnet-daemon-linux-ubentu14.04.tar.gz //Ubuntu 14.04
 
@@ -42,6 +47,7 @@ wget https://github.com/bitcoinsaving/MainNet/raw/master/bitcoinsaving-qt-linux.
 tar -xzvf bitcoinsaving-qt-linux.tar.gz
 
 *Note: Run it inside Xwindows.
+*Note: before the first run please install dependencies listed below.
 
 Linux dependencies for Ubuntu 16.04
 -----------------------------------
