@@ -21,7 +21,7 @@ sudo apt-get install build-essential libssl-dev libdb-dev libdb++-dev libboost-a
 
 sudo apt-get install libdb-dev libdb++-dev libboost-all-dev libminiupnpc-dev libminiupnpc-dev libevent-dev libcrypto++-dev libgmp3-dev -y
 
-wget https://github.com/bitcoinsaving/TestNet/blob/master/Wallet/testnet-daemon-linux-ubentu14.04.tar.gz //Ubuntu 14.04
+wget https://github.com/bitcoinsaving/MainNet/raw/master/bitcoinsaving-daemon1404-linux.tar.gz //Ubuntu 14.04
 
 or
 
