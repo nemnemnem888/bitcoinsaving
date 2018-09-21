@@ -1,3 +1,6 @@
+* Note about Denial-of-Service vulnerability (Sep 21, 2018): A denial-of-service vulnerability (CVE-2018-17144) exploitable by miners has been discovered in Bitcoin Core versions 0.14.0 up to 0.16.2. It is recommended to upgrade any of the vulnerable versions to 0.16.3 as soon as possible.
+Since BitcoinSaving POW Mining was turn off after Block 2,000 & Switching to POS - Bitcoin Saving Coin is safe and didn't need any code update.
+
 BitcoinSaving Cryptocurrency MainNet
 ------------------------------------
 
