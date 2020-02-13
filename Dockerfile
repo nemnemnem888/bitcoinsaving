@@ -1,7 +1,7 @@
 FROM ubuntu
   
 RUN echo "now building..."
-RUN apt-get install -y httpd
+RUN apt-get install -y nginx
 
 EXPOSE 80
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
