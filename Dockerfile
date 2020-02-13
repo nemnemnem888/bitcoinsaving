@@ -1,29 +1,12 @@
-FROM node:alpine
+FROM node:slim
 
-RUN apk --update add tzdata \
- && cp /usr/share/zoneinfo/Asia/Tokyo /etc/localtime \
- && apk del tzdata \
- && rm -rf /var/cache/apk/* \
- && npm install -g yo generator-hubot \
- && npm cache verify
+  WORKDIR /scripts
 
-WORKDIR /work/zatsubot
+- COPY . .
++ COPY ./package.json ./package-lock.json /scripts/
 
-RUN chgrp -R 0 /work \
- && chmod -R g=u /work
+  RUN npm install
 
-ENV HUBOT_SLACK_TOKEN=L0remIpsumdo1orSiT＠metC0nseCtetu®️AdipiscingE1ｲt
-ENV HOME=/work
++ COPY . .
 
-RUN umask 0002; yo hubot --adapter=slack --name="zatsu" --description="zatsu-bot" --owner="zatsu" \
- && rm hubot-scripts.json \
- && npm install cron \
- && npm install cheerio-httpcli \
- && npm install dateformat \
- && npm install request \
- && npm cache verify
-
-COPY yabai_gazou_collect.coffee /work/zatsu/scripts
-COPY entrypoint.sh /work
-
-ENTRYPOINT ["/work/entrypoint.sh"]
+  CMD ["npm", "start"]
