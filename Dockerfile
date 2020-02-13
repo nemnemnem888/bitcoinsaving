@@ -1,7 +1,7 @@
 FROM ubuntu
   
 RUN echo "now building..."
-RUN yum -y install httpd
+RUN apt-get install -y httpd
 
 EXPOSE 80
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
