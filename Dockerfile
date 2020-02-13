@@ -1,4 +1,4 @@
-FROM centos:7
+FROM ubuntu
   
 RUN echo "now building..."
 RUN yum -y install httpd
